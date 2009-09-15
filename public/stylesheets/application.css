@@ -1,0 +1,25 @@
+body {
+  font-family: Verdana, Arial;
+  font-size: 14px; }
+
+a {
+  text-decoration: none; }
+
+#wrapper {
+  width: 800px;
+  margin: 50px auto; }
+
+#header {
+  position: relative; }
+  #header h1 {
+    font-size: 20px; }
+  #header #account-info {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+#content {
+  margin: 30px 0; }
+  #content #notice {
+    margin: 0 0 20px 0;
+    font-weight: bold; }
