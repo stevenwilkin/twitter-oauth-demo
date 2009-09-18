@@ -15,6 +15,7 @@
       #header
         %h1
           %a{:href => '/'}oauth test
+        = render :partial => 'users/account'
 
       #content
         - if flash[:notice]
