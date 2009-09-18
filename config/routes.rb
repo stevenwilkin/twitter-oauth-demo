@@ -32,7 +32,9 @@ ActionController::Routing::Routes.draw do |map|
 
   map.root	:controller => 'pages', :action => 'home'
 
-  map.login	'/login',	:controller => 'sessions', :action => 'new'
+  map.login		'/login',	:controller => 'sessions', :action => 'new'
+  map.logout	'/logout',	:controller => 'sessions', :action => 'destroy'
+  map.auth		'/auth',	:controller => 'sessions', :action => 'auth'
 
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
