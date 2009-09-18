@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
 		redirect_to request_token.authorize_url
  	end
 
-  def destroy
-  end
+	def destroy
+	end
 
 end
